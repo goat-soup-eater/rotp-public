@@ -42,15 +42,15 @@ public final class TechEngineWarp extends Tech {
         techType = Tech.ENGINE_WARP;
 
         switch(typeSeq) {
-            case 0: baseWarp = 1; break;
-            case 1: baseWarp = 2; break;
-            case 2: baseWarp = 3; break;
-            case 3: baseWarp = 4; break;
-            case 4: baseWarp = 5; break;
-            case 5: baseWarp = 6; break;
-            case 6: baseWarp = 7; break;
-            case 7: baseWarp = 8; break;
-            case 8: baseWarp = 9; break;
+            case 0: baseWarp = 0.1; break;
+            case 1: baseWarp = 0.2; break;
+            case 2: baseWarp = 0.3; break;
+            case 3: baseWarp = 0.4; break;
+            case 4: baseWarp = 0.5; break;
+            case 5: baseWarp = 0.6; break;
+            case 6: baseWarp = 0.7; break;
+            case 7: baseWarp = 0.8; break;
+            case 8: baseWarp = 0.9; break;
         }
     }
     public int baseWarp()                { return baseWarp; }
